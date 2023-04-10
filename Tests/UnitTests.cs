@@ -33,7 +33,7 @@ namespace GithubActionsLab
         [Test]
         public void Sub_ValidSauer()
         {
-            Assert.AreEqual(0, Program.Subtract("2", "1"));
+            Assert.AreEqual(1, Program.Subtract("2", "1"));
             Assert.AreEqual(2, Program.Subtract("3", "1"));
             Assert.AreEqual(12, Program.Subtract("24", "12"));
         }
@@ -106,7 +106,7 @@ namespace GithubActionsLab
         public void Power_ValidSauer()
         {
             Assert.AreEqual(2, Program.Power("2", "1"));
-            Assert.AreEqual(6, Program.Power("3", "2"));
+            Assert.AreEqual(9, Program.Power("3", "2"));
             Assert.AreEqual(65536, Program.Power("4", "8"));
         }
 
