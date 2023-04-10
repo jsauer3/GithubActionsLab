@@ -82,7 +82,7 @@ namespace GithubActionsLab
         }
 
         // Implement this method following a similar pattern as above
-        public static double PowerSauer(string x, string y)
+        public static double Power(string x, string y)
         {
             double result = double.Parse(x);
             double num = double.Parse(x);
