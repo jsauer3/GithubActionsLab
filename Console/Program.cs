@@ -85,7 +85,7 @@ namespace GithubActionsLab
         public static double Power(string x, string y)
         {
             double result = x;
-            for (int i = 1, i < y, i++) {
+            for (int i = 1; i < y; i++) {
                 result = result * x;
             }
             return result;
